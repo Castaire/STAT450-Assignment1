@@ -1,0 +1,35 @@
+---
+title: "Stat 450 thingy!"
+author: "Jenny Hui"
+date: "January 11, 2018"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# About Me
+Hey!
+I am a 4th-year STAT student who likes pineapple on pizza. I really appreciate food and good music! 
+Unfortunately, I don't have any pets. 
+
+**Yay, life is great!**
+
+I am from Kelowna, BC which is roughly 4 hours away from here. Ramen is really good. Please offer me good food and take care of me, thanks!
+
+# About a cool equation
+$x = 3$
+
+This is a pretty cool equation; 3 is a pretty awesome number. There's an equal sign in this equation, wow!
+
+# About a cool dataset
+There's a dataset in R called *faithful*, which includes data detailing waiting time between eruptions and the duration fo the eruption for the Old faithful geyser in Yellowstone National Park, Wyoming, USA. This daaset contains 272 observations and 2 variables! 
+
+Much wow!
+
+```{r cool dataset, echo=FALSE}
+faithful[1:5, ]
+plot(faithful, main="cool plot of a cool dataset!")
+```
+
