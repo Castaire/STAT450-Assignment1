@@ -11,25 +11,28 @@ knitr::opts_chunk$set(echo = TRUE)
 
 # About Me
 Hey!
-I am a 4th-year STAT student who likes pineapple on pizza. I really appreciate food and good music! 
-Unfortunately, I don't have any pets. 
+I am a 4th-year STAT student who realy likes pineapple on pizza. I really enjoy good food and music! 
+Unfortunately, I don't have any pets, but if I were to have one, a cat would be nice because they are self-sufficient and undemanding. 
+I am from Kelowna, BC which is roughly 4 hours away from here. Ramen is really good. Please offer me good food and have patience with me!
 
-**Yay, life is great!**
-
-I am from Kelowna, BC which is roughly 4 hours away from here. Ramen is really good. Please offer me good food and take care of me, thanks!
 
 # About a cool equation
-$x = 3$
+$$ w(1) = \underset{\parallel w \parallel = 1}{\operatorname{argmax}} \{\sum_{i} ({x_{i}} \cdot w)^2 \} $$
 
-This is a pretty cool equation; 3 is a pretty awesome number. There's an equal sign in this equation, wow!
+This is a pretty cool equation that is related to PCA (principal component analysis)! Essentially, the $w(1)$ denotes the first loading vector, defining a mapping of each row vector of data to a new vector of principal component scores. The above equation is a condition / thing $w(1)$ has to satisfy!
+
+Overall, I still find PCA to be a pretty sick procedure so pretty much anything related to it is mind-blowingly rad XD
+
 
 # About a cool dataset
-There's a dataset in R called *faithful*, which includes data detailing waiting time between eruptions and the duration fo the eruption for the Old faithful geyser in Yellowstone National Park, Wyoming, USA. This daaset contains 272 observations and 2 variables! 
+There's a dataset in R called *faithful*, which includes data detailing waiting time between eruptions and the duration fo the eruption for the Old faithful geyser in Yellowstone National Park, Wyoming, USA. This dataset contains 272 observations and 2 variables! 
+
+I think this is a pretty cool dataset because geyser eruptions are just pure and plain awesomeness in a bottle. Fun fact, did you know geysers are formed by water seeping through the ground and coming into contact with magma-heated rock? Now you know! Geysers are life-changing, bro!
 
 Much wow!
 
 ```{r cool dataset, echo=FALSE}
 faithful[1:5, ]
-plot(faithful, main="cool plot of a cool dataset!")
+plot(faithful, main="cool plot of a cool dataset!", xlab="waiting time to next eruption (minutes)", ylab="eruption time (minutes)")
 ```
 
